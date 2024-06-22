@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-design {
+    max-width: 550px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    padding-top: 15px;
+}
+
+.carrosel{
+    display: flex;
+    overflow: hidden; /* Oculta os itens fora da área visível */
+    width: 100%;
+}
+.carrosel .item {
+    padding: 15px;
+    margin: 0 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+    animation: carrosel 5s infinite;
+}
+
+.carrosel .item:nth-child(odd) {
+    background-color: #5081FF; 
+}
+
+.carrosel .item:nth-child(even) {
+    background-color: #454545;
+}
+
+.box-1{
+    padding: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.container-text{
+    padding: 0 15px;
+}
+
+.box-1 .container-text h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.container-text p:nth-of-type(1){
+    padding-top: 45px;
+}
+
+.container-text p{
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.container-text button{
+    width: 100%;
+    padding: 15px;
+    background-color: #5081FF;
+    color: #ffffff;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-text button a{
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+}
+
+.container-img img{
+    max-width: 550px;
+    width: 550px;
+    height: 550px;
+}
+
+.container-callback{
+    max-width: 850px;
+    margin: 50px auto;
+    display: flex;
+    margin-bottom:90px ;
+}
+.callback{
+    padding: 25px;
+    width: calc(100%/3);
+    background-color: #454545;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.callback:nth-of-type(2){
+    padding: 15px;
+    transform: scale(20px, 20px);
+    max-width: 400px;
+    height: 350px;
+    background-color: #4979f2;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.callback h3, .callback p{
+    padding: 5px   
+}
+.callback h3{
+    font-weight: 200;
+    font-size: 25px;
+}
+.callback p{
+    font-weight: lighter;
+}
+
+@keyframes carrosel{
+    0%{
+        left: 0;
+    }
+    40%{
+        left: -40px;
+    }
+    80%{
+        left: 10px
+    }
+    100%{
+        left: 0;
+    }
+}

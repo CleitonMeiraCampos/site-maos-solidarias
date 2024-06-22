@@ -1,0 +1,65 @@
+.container-ajuda{
+    padding: 30px 30px;
+    box-shadow: 1px 1px 5px;
+    max-width: 1080px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.header-text-ajuda .ajuda-img-h2{
+    display: flex;
+    max-width: 555px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.ajuda-img-h2 h2{
+    font-size: 40px;
+    margin-right: 8px;
+}
+.header-text-ajuda p{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 5px 15px 35px 15px;
+    color: rgba(120, 120, 120, 0.724);
+}
+.ajuda-quite h3, .container-ajuda-form h3{
+    font-size: 25px;
+    padding: 5px;
+}
+.ajuda-quite p{
+    padding: 5px;
+    color: #020000b9;
+    font-weight: bold;
+}
+.ajuda-quite ul{
+    padding: 5px;
+}
+.ajuda-quite ul{
+    list-style-position: inside;
+}
+
+.container-ajuda-form form{
+    padding: 10px;
+}
+
+.container-ajuda-form form input, .container-ajuda-form form textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #00000087;
+    margin: 8px auto;
+    outline: none;
+}
+
+.container-ajuda-form form textarea{
+    min-height: 160px;
+    resize: none;
+}
+
+.container-ajuda-form form input[type=button]{
+    background-color:#5081FF;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container-contato{
+        display: flex;                                                     
+        justify-content: space-around;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .container-contato form{
+        width: 100%;
+        max-width: 370px;
+        padding:25px;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 5px;
+        border-radius: 15px;
+    }
+    .container-contato form input[type="text"], .container-contato form input[type="email"]{
+        width: 100%;
+        margin: 8px auto;
+        padding: 9px;
+        border-radius: 5px;
+        border: 0.5px solid #00000020;
+    }
+    .container-contato form input[type="text"]:focus, .container-contato form input[type="email"]:focus, .container-contato form textarea:focus{
+        outline: none;
+    }
+
+
+    .container-contato form textarea{
+        width: 100%;
+        height: 110px;
+        resize: none;
+        margin: 8px auto;
+        padding: 9px;
+        border-radius: 5px;
+        border: 0.5px solid #00000020;
+    }
+
+    .container-contato form input[type="button"]{
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #5081FF;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .container-form-contato p{
+        padding: 5px 15px 15px 10px;
+        font-size: 18px;
+        color: #38363695;
+    }
+    .container-form-contato h2{
+        padding: 15px 15px 0 10px;
+        font-size: 45px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .img-contato img:first-of-type{
+        max-width: 480px;
+    }
+
+    .container-text-img-contato{
+        display: flex;
+        margin-top: -55px;
+        justify-content: center;
+        font-size: 35px;
+    }
+
+    .container-text-img-contato img{
+        margin-left: 8px;
+        margin-top: -5px;
+    }
+
+    .container-text-img-contato h3{
+        font-weight: lighter;
+    }

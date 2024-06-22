@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+nav ul li a{
+    color: #000000;
+}
+
+.container-img-doar{
+    width: 100%;
+    height: 79vh;
+    background-image: url('../../assets/close-up-volunteers-collecting-food 1.png');
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.text-doar{
+    background-color: #f9f9f9;
+    max-width: 40%;
+    width: 600px;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+
+.container-img-doar div.container-form{
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+
+
+.container-img-doar form{
+    filter: initial;
+    width: 100%;
+    max-width: 340px;
+    padding:25px;
+}
+.container-img-doar form input[type="text"], .container-img-doar form input[type="email"]{
+    width: 100%;
+    margin: 8px auto;
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid #00000020;
+}
+.container-img-doar form input[type="text"]:focus, .container-img-doar form input[type="email"]:focus, .container-img-doar form textarea:focus{
+    outline: none;
+}
+
+
+.container-img-doar form textarea{
+    width: 100%;
+    height: 110px;
+    resize: none;
+    margin: 8px auto;
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid #00000020;
+}
+
+.container-img-doar form input[type="button"]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5081FF;
+    color: #ffffff;
+    cursor: pointer;
+}
